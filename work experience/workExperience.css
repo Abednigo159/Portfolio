@@ -1,0 +1,85 @@
+.box h1{
+    font-size: 2rem;
+}
+
+.box b{
+    font-size: 2rem;
+}
+
+@media (max-width: 600px){
+    .work{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .box ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box ul li{
+        width: 80%;
+    }
+
+    .division{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .work{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .box ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box ul li{
+        width: 80%;
+    }
+
+    .division{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1025px){
+    .work{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .box ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box ul li{
+        width: 80%;
+    }
+
+    .division{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}

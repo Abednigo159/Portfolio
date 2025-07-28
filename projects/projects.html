@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+
+    <link rel="stylesheet" href="projects.css"/>
+    <link rel="stylesheet" href="../format.css"/>
+</head>
+<body>
+    <div class="background">
+        <div class="box">
+            <div class="projects">
+                <a id="home" href="../home.html"><img id="homeLogo" src="../media/homeLogo.png"><span id="homeLabel">Home</span></a>
+                <h1>Projects</h1>
+                <ul>
+                    <p class="title">Arduino based 4 floors mini elevator</p>
+                    <video class="video" controls>
+                        <source src="../media/elevator.mp4" type="video/mp4">
+                    </video>
+                    <li>We created a miniature elevator as a school project, using illustration board to construct the structural framework. The system is powered and controlled by an Arduino Uno, which sends signals to a stepper motor that drives the elevator car. The stepper motor moves the car up and down using precise rotational motion, allowing for smooth and accurate vertical movement. This project demonstrates basic principles of automation and motor control, simulating how real elevator systems operate on a smaller scale.</li>
+                    <li class="title">Arduino Cyclone light reflex game</li>
+                    <video class="video" controls>
+                        <source src="../media/cyclone.mp4" type="video/mp4">
+                    </video>
+                    <li>I developed a light reflex game using an Arduino Uno and a NeoPixel LED ring, designed to challenge the player’s timing and reaction skills. The game features a running LED light that cycles through red, green, and blue, rotating continuously around the ring. A specific position on the ring is marked with a white LED, serving as the "target zone."</li>
+                    <li>When the running colored light aligns with the white target, the player must press the corresponding color button at the correct moment. Each successful press increases the speed of the running light, making the game progressively harder. A missed or mistimed press resets the speed, encouraging precision and quick reflexes.</li>
+                    <li>This project combines real-time input handling, color-based interaction, and dynamic difficulty scaling, making it an engaging demonstration of Arduino-based game development.</li>
+                    <li class="title">Arduino based buzzer for quiz game</li>
+                    <video class="video" controls>
+                        <source src="../media/buzzer.mp4" type="video/mp4">
+                    </video>
+                    <li>This is a commissioned project developed by my friend and me—an Arduino-based quiz buzzer system designed for two competing teams. The system features a total of seven buttons: six for team inputs (three for each side) and one dedicated reset button.</li>
+                    <li>When any of the six team buttons is pressed, the buzzer sounds, and an indicator light on the box corresponding to that specific button illuminates. To ensure fairness and clarity, the system automatically disables all other buttons after the first press, allowing easy identification of which player responded first. Pressing the reset button reactivates the system for the next round. This project highlights effective use of Arduino logic, real-time input handling, and team-based interaction in a quiz environment.</li>
+                    <li class="title">One Tap Away: Arduino based attendance and tracking system</li>
+                    <video class="video" controls>
+                        <source src="../media/pd2.mp4" type="video/mp4">
+                    </video>
+                    <li>This project is part of our research work, where I developed a web-based Arduino attendance tracking system using RFID technology. The system uses RFID cards and a scanner connected to an Arduino Mega, which reads the card data and transmits it via the serial port.</li>
+                    <li>A Python script acts as a communication bridge between the Arduino and the web interface. When a card is scanned, the data is sent to the Python script, which forwards it to the webpage for verification. The PHP backend checks if the scanned card is registered in the systems database. It then sends a response back through Python to the Arduino, which uses a TFT LCD display to show a real-time message indicating whether the card is valid or not.</li>
+                    <li>This project combines embedded systems, web development, and serial communication, demonstrating real-world application of IoT and automated attendance monitoring.</li>
+                </ul>
+            </div>
+
+            <div class="links">
+                <a href="../education/education.html">Education</a>
+                <a href="../work experience/workExperience.html">Work Experience</a>
+                <a href="../contacts/contacts.html">Contacts</a>
+                <a href="../skills/skills.html">Skills</a>
+                <a id="current" href="../Projects/projects.html">Projects</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

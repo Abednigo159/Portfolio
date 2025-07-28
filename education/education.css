@@ -1,0 +1,87 @@
+.elinks{
+    margin-bottom: 50px;
+}
+
+.elinks p{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.elinks a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    background-color: #5dabff;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    box-shadow: 3px 3px 20px rgba(0,0,0,1);
+    transition: 0.2s;
+    width: 50%;
+    align-items: center;
+}
+
+.schoolLogo{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.elinks a:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px){
+    .elinks{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        height: 100%;
+        padding-top: 50px;
+    }
+
+    .elinks a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .elinks p{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .elinks{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        height: 100%;
+        padding-top: 50px;
+    }
+
+    .elinks a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1025px){
+    .elinks{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        height: 100%;
+        padding-top: 50px;
+    }
+
+    .elinks a{
+        display: flex;
+        justify-content: center;
+    }
+}

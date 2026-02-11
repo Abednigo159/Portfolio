@@ -44,3 +44,33 @@
     width: 90%;
     margin: 10px;
 }
+
+@media (max-width: 600px){
+    .contactsContainer{
+        width: 90%;
+    }
+
+    .contactTitle{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 601px){
+    .contactsContainer{
+        width: 80%;
+    }
+
+    .contactTitle{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1025px){
+    .contactsContainer{
+        width: 40%;
+    }
+
+    .contactTitle{
+        width: 50%;
+    }
+}

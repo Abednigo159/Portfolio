@@ -47,11 +47,11 @@
 
 @media (max-width: 600px){
     .contactsContainer{
-        width: 90%;
+        width: 80%;
     }
 
     .contactTitle{
-        width: 70%;
+        width: 60%;
     }
 }
 

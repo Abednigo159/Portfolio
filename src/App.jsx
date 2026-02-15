@@ -71,7 +71,8 @@ export default function App(){
     const contactLists = [
         {id: 1, type: "Email", info: "abednigo159@gmail.com"},
         {id: 2, type: "Phone", info: "+63 964-968-4771"},
-        {id: 3, type: "GitHub", info: "www.linkedin.com/in/aquino-john-joseph-s-500785378"}
+        {id: 3, type: "LinkedIn", info: "www.linkedin.com/in/aquino-john-joseph-s-500785378"},
+        {id: 4, type: "GitHub", info: "https://github.com/Abednigo159"}
         /* CREATE AND FIX A LINKED IN PROFILE */,
     ]
 

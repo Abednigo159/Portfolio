@@ -60,7 +60,7 @@ export default function App(){
         id: 5,
         video: galaga,
         title: "Space shooter game",
-        shortDes: "Please go to this link: space-shooter-lac.vercel.app",
+        shortDes: "https://space-shooter-lac.vercel.app",
         description1: "Personal project",
         description2: "HTML, CSS, and Javascript",
         description3: "I created this project while learning how the HTML5 canvas works in JavaScript. It’s a Galaga-like space shooting game featuring a player, two regular enemies, and one boss enemy.",

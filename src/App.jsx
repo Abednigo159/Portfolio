@@ -77,8 +77,8 @@ export default function App(){
     ]
 
     function indexVideoPlay(id){
-        setLists(prev => 
-            prev.map(project => 
+        setLists(projectLists => 
+            projectLists.map(project => 
                 project.id === id ? {...project, playing: !project.playing}
                 : {...project, playing: false}
             )

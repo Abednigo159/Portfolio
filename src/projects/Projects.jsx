@@ -1,33 +1,26 @@
-import {useRef, useEffect} from "react";
+import {useEffect, useRef} from "react";
 import style from "./Projects.module.css";
 
-export default function Projects({lists, indexVideoPlay, indexHideDescription}){
-
+export default function Projects({lists, indexVideoPlay,indexHideDescription}){
     const videoRefs = useRef([]);
 
     useEffect(() => {
-        lists.forEach((project) => {
-            const video = videoRefs.current[project.id];
-            if(video){
-                if(project.playing){
-                    video.play();
-                }
-                else{
-                    video.pause();
-                }
-            }
+        lists.forEach((project, index) => {
+            const video = videoRefs.current[index];
+            if(!video) return;
+            if(project.playing) video.play();
+            else video.pause();
         })
     }, [lists])
 
     return(
         <>
-            {lists.map(project => (
+            {lists.map((project, index) => (
                 <main key={project.id} className={style.projects}>
                     <div onClick={() => indexHideDescription(project.id)} className={style.column}>
-                        <video onClick={(e) => 
-                            {e.stopPropagation(); indexVideoPlay(project.id);
-                            }}
-                            className={project.playing ? style.videoExpand : style.videoDefault} src={project.video} controls/>
+                        <video ref={(el) => (videoRefs.current[index] = el)} onClick={(e) => {e.stopPropagation(); indexVideoPlay(project.id)}} 
+                        className={project.playing ? style.videoExpand : style.videoDefault} src={project.video}
+                        controls={project.playing}></video>
                         <div className={style.textsContainer}>
                             <h2 className={style.title}>{project.title}</h2>
                             <div className={style.descriptionContainer}>

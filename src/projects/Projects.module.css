@@ -5,6 +5,7 @@
 .projects{
     background: rgb(188, 255, 194);
     border-radius: 24px;
+    padding: 10px;
     margin-bottom: 30px;
     box-shadow: 2px 2px 20px black;
     cursor: pointer;

@@ -19,8 +19,7 @@ export default function Projects({lists, indexVideoPlay,indexHideDescription}){
                 <main key={project.id} className={style.projects}>
                     <div onClick={() => indexHideDescription(project.id)} className={style.column}>
                         <video ref={(el) => (videoRefs.current[index] = el)} onClick={(e) => {e.stopPropagation(); indexVideoPlay(project.id)}} 
-                        className={project.playing ? style.videoExpand : style.videoDefault} src={project.video}
-                        controls={project.playing}></video>
+                        className={project.playing ? style.videoExpand : style.videoDefault} src={project.video}></video>
                         <div className={style.textsContainer}>
                             <h2 className={style.title}>{project.title}</h2>
                             <div className={style.descriptionContainer}>

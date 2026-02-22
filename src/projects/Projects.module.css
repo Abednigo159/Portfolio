@@ -27,6 +27,7 @@
     transition: 0.2s;
     position: fixed;
     transform: translate(-50%, -50%) scale(1);
+    border-radius: 25px;
     top: 50%;
     left: 50%;
     height: 80%;
@@ -103,6 +104,11 @@
         height: 130px;
     }
 
+    .videoExpand
+    {
+        width: 90%;
+    }
+    
     .title{
         font-size: 15px;
         text-align: center;
@@ -125,6 +131,10 @@
     .videoDefault{
         width: 100px;
         height: 130px;
+    }
+
+    .videoExpand{
+        width: 80%;;
     }
 
     .title{

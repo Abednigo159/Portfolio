@@ -13,6 +13,7 @@ import cyclone from "./assets/cyclone.mp4";
 import buzzer from "./assets/buzzer.mp4";
 import pd2 from "./assets/pd2.mp4";
 import galaga from "./assets/galaga.mp4";
+import chess from "./assets/chess.mp4";
 import Footer from "./footer/Footer.jsx";
 
 export default function App(){
@@ -66,7 +67,18 @@ export default function App(){
         description3: "I created this project while learning how the HTML5 canvas works in JavaScript. It’s a Galaga-like space shooting game featuring a player, two regular enemies, and one boss enemy.",
         playing: false,
         showDescription: false
-    }]);
+    },{
+        id: 6,
+        video: chess,
+        title: "Chess(In Progress)",
+        shortDes: "https://space-shooter-lac.vercel.app",
+        description1: "Personal project",
+        description2: "HTML, CSS, and React.js",
+        description3: "I'm creating this project to be more indept with React.js. It is still on progress. I want it to have all the rules of chess. I also plan to create a simple enemy AI to this in the future.",
+        playing: false,
+        showDescription: false
+    }
+]);
 
     const contactLists = [
         {id: 1, type: "Email", info: "abednigo159@gmail.com"},

@@ -71,7 +71,7 @@ export default function App(){
         id: 6,
         video: chess,
         title: "2 Player Chess",
-        shortDes: "https://chess-game-john-joseph.vercel.app/",
+        shortDes: "https://2-player-chess-game.vercel.app/",
         description1: "Personal project",
         description2: "HTML, CSS, and React.js",
         description3: "I'm creating this project to be more indept with React.js. It is still on progress. I want it to have all the rules of chess. I also plan to create a simple enemy AI to this in the future.",

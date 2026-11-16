@@ -81,7 +81,7 @@ export default function App(){
     },{
         id: 7,
         video: Vestige,
-        title: "Topdown RPG pixel art game",
+        title: "Topdown pixel art RPG",
         shortDes: "A 2D top-down RPG developed using Godot Engine and C#, featuring a pixel art aesthetic and classic RPG-inspired gameplay.",
         description1: "Personal project",
         description2: "HTML, CSS, and React.js",

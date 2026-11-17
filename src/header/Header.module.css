@@ -50,13 +50,12 @@
     }
 
     .header{
-        width: 90%;
-        font-size: 7rem;
+        width: 100%;
+        font-size: 6rem;
     }
 
     .description{
-        margin: 0 10%;
-        width: 90%;
+        width: 100%;
         font-size: 5rem;
         text-align: center;
     }

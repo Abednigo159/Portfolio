@@ -84,7 +84,7 @@ export default function App(){
         title: "Topdown pixel art RPG",
         shortDes: "A 2D top-down RPG developed using Godot Engine and C#, featuring a pixel art aesthetic and classic RPG-inspired gameplay.",
         description1: "Personal project",
-        description2: "HTML, CSS, and React.js",
+        description2: "Godot Engine, C#, .NET, and Aseprite",
         description3: "Developed as a solo project, I handled both the programming and visual development.",
         playing: false,
         showDescription: false

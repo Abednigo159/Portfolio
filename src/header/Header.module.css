@@ -36,8 +36,9 @@
     }
 
     .description{
-        margin: 0 30%;
+        margin: 0 10%;
         width: 90%;
+        font-size: 1.5rem;
         text-align: center;
     }
 }
@@ -49,13 +50,14 @@
     }
 
     .header{
-        width: 70%;
+        width: 90%;
         font-size: 2rem;
     }
 
     .description{
-        margin: 0 30%;
-        width: 70%;
+        margin: 0 10%;
+        width: 90%;
+        font-size: 1.5rem;
         text-align: center;
     }
 }
@@ -73,6 +75,7 @@
 
     .description{
         width: 50%;
+        font-size: 1.5rem;
         text-align: center;
     }
 }

@@ -13,10 +13,7 @@ import cyclone from "./assets/cyclone.mp4";
 import buzzer from "./assets/buzzer.mp4";
 import pd2 from "./assets/pd2.mp4";
 import galaga from "./assets/galaga.mp4";
-<<<<<<< HEAD
 import Vestige from "./assets/Nov 16, 2026.mp4"
-=======
->>>>>>> 546ce76d9c9cb44af35cbe3c213c83eb65af5845
 import chess from "./assets/chess.mp4";
 import Footer from "./footer/Footer.jsx";
 
@@ -78,7 +75,6 @@ export default function App(){
         shortDes: "https://2-player-chess-game.vercel.app/",
         description1: "Personal project",
         description2: "HTML, CSS, and React.js",
-<<<<<<< HEAD
         description3: "I'm creating this project to be more indept with React.js. It is still on progress. I want it to have all the rules of chess.",
         playing: false,
         showDescription: false
@@ -90,9 +86,6 @@ export default function App(){
         description1: "Personal project",
         description2: "HTML, CSS, and React.js",
         description3: "Developed as a solo project, I handled both the programming and visual development.",
-=======
-        description3: "I'm creating this project to be more indept with React.js. It is still on progress. I want it to have all the rules of chess. I also plan to create a simple enemy AI to this in the future.",
->>>>>>> 546ce76d9c9cb44af35cbe3c213c83eb65af5845
         playing: false,
         showDescription: false
     }

@@ -47,6 +47,7 @@
     .profile{
         margin: 0 30%;
         width: 60%;
+        height: fit-content;
     }
 
     .header{

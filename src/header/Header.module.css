@@ -51,13 +51,13 @@
 
     .header{
         width: 90%;
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .description{
         margin: 0 10%;
         width: 90%;
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
     }
 }
